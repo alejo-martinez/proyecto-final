@@ -66,10 +66,11 @@ body {
 .contenido__uno {
     background-color: rgba(255, 255, 255, 0.18);
     width: 200px;
-    height: 300px;
+    height: 12rem;
     box-shadow: 0px 0px 50px -1px gray;
     border-width: 3px;
     padding: 2px;
+    border-radius: 10px;
 }
 
 .contenido__dos {
@@ -171,6 +172,7 @@ button {
     margin-right: 70px;
     background-color: rgba(255, 254, 250, 0.18);
     padding: 40px;
+    
 }
 
 .div-clientes {
@@ -182,11 +184,21 @@ button {
 .leiva {
     width: 223px;
     margin-right: 30px;
+    
 }
 
 .pilay {
     width: 225px;
     margin-top: 35px;
+   
+}
+
+.div-clientes img {
+    transition: transform 0.5s;
+}
+
+.div-clientes img:hover {
+    transform: scale(1.5);
 }
 
 .footer-prueba {
@@ -223,10 +235,16 @@ button {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    
+}
+
+.trabajos img:hover {
+    transform: scale(1.7);
 }
 
 .trabajos__imagenes {               /* Padding de las imagenes en portfolio */ 
    padding: 30px;
+   transition: transform 2.3s;
 }
 
 .formulario {               /* Posicion del formulario */
