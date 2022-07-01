@@ -310,6 +310,20 @@ label {                          /* Edicion del label */
     .aside-prueba {
         font-size: 70%;
     }
+
+    iframe {
+        height: 93%;
+        
+    }
+
+    .parrafo-acerca-de {
+        margin-left: 10px;
+        height: 100%;
+    }
+
+    div p {
+        font-size: 70%;
+    }
 }
 
 @media (max-width: 425px) {
@@ -393,10 +407,29 @@ label {                          /* Edicion del label */
         width: 70%;
         height: 70%;
     }
+
+    .mainacercade {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    iframe {
+        margin-right: 58px;
+    }
+    
 }
 
 @media (max-width: 375px) {
     section p {
         font-size: 63%;
+    }
+
+    iframe {
+        width: 86%;
+    }
+
+    div p {
+        font-size: 60%;
     }
 }
