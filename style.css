@@ -5,21 +5,41 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;                       /* Body con el fondo y fuente de los textos */
-    background-image: url('./pages/imagenes/fondo.png');
-    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* INDEX */
 
-.header {
-    font-size: 200%;            /* Aumento del tamaño de la fuente de los titulos */
+
+/* nav */
+
+.fondo-nav {
+    background-color: rgba(38, 38, 151, 0.808);
 }
 
-.header__titulo {
-    text-align: center;         /* Alineacion y color de los titulos */
-    color: white;
-    margin: 20px;
+.hover {
+    transition: transform 0.3s;
+}
+
+.hover:hover {
+    transform: scale(1.2) translateX(10px);
+    color: #ACB6E5;
+}
+
+.hover-secciones {
+    transition: color 0.4s;
+}
+
+.hover-secciones:hover {
+    color: #ACB6E5;
+}
+
+h1 {
+    font-size: 4rem;
 }
 
 .contenedor {
@@ -82,7 +102,6 @@ section p {
     font-size: 80%;
     color: rgba(20, 130, 142, 0.91); 
     text-align: center;
-    font-weight: bold;
     line-height: 1.7;
 }
 
@@ -95,13 +114,12 @@ section h5 {
     font-size: 16px;
 }
 
-.pie {
-    text-align: center;
-    margin-top: 50px;
+.instagram {
+    transition: transform 0.3s;
 }
 
-.pie__link {                /* Padding para el footer */
-    padding: 10px;
+.instagram:hover {
+    transform: scale(1.2);
 }
 
 .titulo {                       /* Posicion de los titulos de cada seccion */
