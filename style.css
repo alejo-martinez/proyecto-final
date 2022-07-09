@@ -62,32 +62,7 @@ h5 {
     height: 90px;
 }
 
-.menu {
-    position: relative;             /* Posicion del nav */
-    text-align: right;
-    margin-right: 20px;
-}
-
-.menu__lista {
-    font-size: 20px;                /* Estilos y posicion de los enlaces */
-    display: flex;
-    list-style-type: none;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    margin-top: 20px;
-    margin-right: 30px;
-}
-
-
-
-.menu__lista--enlace {  
-    color: white;                   /* Diseño de cada enlace */
-    font-size: 16px;
-    text-decoration: none;
-    padding-left: 10px;
-}
-
-.contenido__uno {
+.contenido__index {
     background-color: rgba(255, 255, 255, 0.21);
     width: 200px;
     height: 12rem;
@@ -98,7 +73,7 @@ h5 {
     transition: transform 1.2s;
 }
 
-.contenido__uno:hover {
+.contenido__index:hover {
     transform: scale(1.2);
 }
 
@@ -236,20 +211,9 @@ section h5 {
 
 
 /* PORTOFOLIO */
-.trabajos {                     /* Posicion del contenedor de las imagenes en portfolio */ 
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    
-}
 
-.trabajos img:hover {
-    transform: scale(1.7);
-}
-
-.trabajos__imagenes {               /* Padding de las imagenes en portfolio */ 
-   padding: 30px;
-   transition: transform 2.3s;
+section div img {
+    /* margin: auto; */
 }
 
 /* Seccion Contacto */
