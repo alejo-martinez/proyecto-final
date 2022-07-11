@@ -18,7 +18,11 @@ body {
 /* nav */
 
 .fondo-nav {
-    background-color: rgba(38, 38, 151, 0.808);
+    background-color: rgba(3, 88, 128, 0.808);
+}
+
+.actual {
+    color: antiquewhite;
 }
 
 .hover {
@@ -101,16 +105,11 @@ section h5 {
     transform: scale(1.2);
 }
 
-.titulo {                       /* Posicion de los titulos de cada seccion */
-    text-align: center;
-    padding: 10px;
-}
-
-.titulo__seccion {              /* Edicion de los titulos de las secciones */ 
+/* .titulo__seccion {              
     font-size: 200%;
     text-decoration: underline;
     text-align: center;
-}
+} */
 
 
 /* BOTON VOLVER */
@@ -211,10 +210,6 @@ section h5 {
 
 
 /* PORTOFOLIO */
-
-section div img {
-    /* margin: auto; */
-}
 
 /* Seccion Contacto */
 
