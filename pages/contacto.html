@@ -5,57 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@500&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <section class="menu">
-        <ul class="menu__lista">
-            <li><a class="menu__lista--enlace" href="./acercade.html">Acerca de</a></li>             <!-- link hacia la pagina "acerca de" de la empresa -->
-            <li><a class="menu__lista--enlace" href="./clientes.html">Clientes</a></li>              <!-- link hacia la pagina "clientes" de la empresa -->
-            <li><a class="menu__lista--enlace" href="./portfolio.html">Portfolio</a></li>            <!-- link hacia la pagina "portfolio" de la empresa -->
-        </ul>
-    </section>
 
-    <section class="titulo">
-        <h1 class="titulo__seccion">Formulario de contacto</h1>
-        <h4 class="clientes__subtitulo">Las luciernagas 995, San jose del Rincon</h4>
-        <h4 class="clientes__subtitulo">TELEFONO: +54 03426111971</h4>
-        <h4 class="clientes__subtitulo">EMAIL: mhoraciomartinez@gmail.com</h4>
+    <nav class="navbar navbar-expand-lg fondo-nav">
+        <div class="container-fluid">
+          <a href="../index.html" class="navbar-brand hover">Formas y espacios</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link hover-secciones" href="./acercade.html">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link hover-secciones" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-secciones" href="./clientes.html">Clientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./contacto.html" class="nav-link hover-secciones actual">Contacto</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        <form class="formulario" action="" method="" >                  <!-- Formulario -->
-            <label for="nombre">Ingrese su nombre</label>
+    <section class="text-center mt-3 section-formulario">
+        <h1 class="fs-1">Formulario de contacto</h1>
+        <h4 class="fs-5">Las luciernagas 995, San jose del Rincon</h4>
+        <h4 class="fs-5">TELEFONO: +54 03426111971</h4>
+        <h4 class="fs-5">EMAIL: mhoraciomartinez@gmail.com</h4>
+
+        <form class="ms-2" action="" method="" >                  
+            <label for="nombre" class="fw-bold mb-1">Ingrese su nombre</label>
             <input type="text" id="nombre" placeholder="Nombre..." />
            
-            <label for="email">Ingrese su email</label>
+            <label for="email" class="fw-bold mt-2 mb-1">Ingrese su email</label>
             <input type="email" id="email" placeholder="Email..." />
           
-            <label for="telefono">Ingrese su telefono</label>
+            <label for="telefono" class="fw-bold mt-2 mb-1">Ingrese su telefono</label>
             <input type="text" id="telefono" placeholder="Telefono..." />
             
-            <label for="service">Servicio a consultar</label>
+            <label for="service" class="fw-bold mt-2 mb-1">Servicio a consultar</label>
             <input type="text" id="service" placeholder="Servicio..." />
            
-            <label for="consulta">Ingrese su consulta</label>
+            <label for="consulta" class="fw-bold mt-2 mb-1">Ingrese su consulta</label>
             <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulta..."></textarea>
           
-            <button type="submit">Enviar</button>
+            <div>
+              <button class="mt-4" type="submit">Enviar</button>
+            </div>
+            
 
         </form>
     </section>
-    
-    <div class="comodin">
-        <button class="comodin__button"><a href="../index.html">Volver</a></button>             <!-- boton para regresar al index -->
-    </div>
 
-    <footer class="pie">
+    <footer class="pie text-center pb-4 mt-5">
         <h5>Horacio Martinez - Diseñador</h5>
         <section class="pie__link">
             <a href="https://www.instagram.com/formas_y_espacios_design/">              <!-- Link hacia el instagram de la empresa -->
-                <img src="./imagenes/logo instagram.png" alt="Instagram" width="30" height="30"/>          <!-- Link hacia el instagram de la empresa -->
+                <img class="instagram" src="./imagenes/logo instagram.png" alt="Instagram" width="30" height="30"/>          <!-- Link hacia el instagram de la empresa -->
             </a>
         </section>
     </footer>

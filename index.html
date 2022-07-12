@@ -5,61 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formas y Espacios</title>                       <!-- Titulo de la pagina web -->
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>        
+
+    
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@500&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./pages/imagenes/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header">
-        <section class="menu">
-            <ul class="menu__lista">
-                <li><a class="menu__lista--enlace" href="./pages/acercade.html">Acerca de</a></li>                    <!-- Link para la pagina "Acerca de" de la empresa -->
-                <li><a class="menu__lista--enlace" href="./pages/portfolio.html">Portfolio</a></li>                   <!-- Link para la pagina "portfolio" de la pagina -->
-                <li><a class="menu__lista--enlace" href="./pages/clientes.html">Clientes</a></li>                     <!-- Link para la pagina "clientes" de la empresa -->
-                <li><a class="menu__lista--enlace" href="./pages/contacto.html">Contacto</a></li>                     <!-- Link para la pagina "contacto" de la empresa -->
+
+    <nav class="navbar navbar-expand-lg fondo-nav">
+        <div class="container-fluid">
+          <a href="./index.html" class="navbar-brand hover">Formas y espacios</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link hover-secciones" href="./pages/acercade.html">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link hover-secciones" href="./pages/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-secciones" href="./pages/clientes.html">Clientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover-secciones" href="./pages/contacto.html">Contacto</a>
+                  </li>
             </ul>
-        </section>
+          </div>
+        </div>
+      </nav>
+
+    <header class="header mt-3">
         <section class="contenedor">
             <img class="contenedor__imagen" src="./pages/imagenes/imagen index02.png" alt="Logo">
         </section>
-        <h1 class="header__titulo">Formas y Espacios</h1>            <!-- Titulo de bienvenida -->
-        <h3 class="header__titulo">Diseño y comunicación</h3>           <!-- Subtitulo de la pagina -->
+        <h1 class="text-white text-center">Formas y Espacios</h1>            
+        <h3 class= "text-white text-center">Diseño y comunicación</h3>           
     </header>
 
     <main class="contenido">
-        <section class="contenido__uno">
-            <h5 class="contenido__uno--articulo">Comunicacion</h5>
-            <p class="contenido__uno--articulo">
+        <section class="contenido__index">
+            <h5>Comunicacion</h5>
+            <p class="ps-1">
                 Desarrollamos la comunicacion interna y externa de tu empresa o negocio. 
                 Creamos y administramos tus redes sociales.
                 Desarrollo de sitios web.
             </p>
         </section>
 
-        <section class="contenido__uno">
-            <h5 class="contenido__uno--titulo">Diseño Grafico</h5>
-            <p class="contenido__uno--p">
+        <section class="contenido__index">
+            <h5>Diseño Grafico</h5>
+            <p>
                 Diseño de piezas graficas en diversos soportes: papel, lona, vinilos, volantes, folletos.
                 
             </p>
         </section>
 
-        <section class="contenido__uno">
-            <h5 class="contenido__uno--articulo">Diseño de interior</h5>
-            <p class="contenido__uno--articulo">
+        <section class="contenido__index">
+            <h5>Diseño de interior</h5>
+            <p class="">
                 Diseñamos tus espacios, oficinas, locales, viviendas particulares, etc.
             </p>
         </section>
         
     </main>
 
-    <footer class="pie">
+    <footer class="m-5 text-center">
         <h5>Horacio Martinez - Diseñador</h5>                        
-        <section class="pie__link">
+        <section>
             <a href="https://www.instagram.com/formas_y_espacios_design/">              <!-- Link hacia el instagram de la empresa -->
-                <img src="./pages/imagenes/logo instagram.png" alt="Instagram" width="30" height="30"/>          <!-- Link hacia el instagram de la empresa -->
+                <img class="instagram" src="./pages/imagenes/logo instagram.png" alt="Instagram" width="30" height="30"/>          <!-- Link hacia el instagram de la empresa -->
             </a>
         </section>
     </footer>
