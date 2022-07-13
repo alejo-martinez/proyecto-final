@@ -6,12 +6,12 @@
     }
 
     h5 {
-        font-size: 70%;
+        font-size: $fuenteChica;
     }
 
     .aside {
         &-clientes {
-            font-size: 70%;
+            font-size: $fuenteChica;
         }
     }
 
@@ -28,7 +28,7 @@
 
     div {
         & p {
-            font-size: 70%;
+            font-size: $fuenteChica;
         }
     }
 }
@@ -55,7 +55,7 @@
 
     section {
         & h5 {
-            font-size: 70%;
+            font-size: $fuenteChica;
         }
 
         & p {
@@ -102,7 +102,7 @@
 
     .listado {
         &__clientes {
-            font-size: 70%;
+            font-size: $fuenteChica;
 
             &--lista {
                 list-style: none;
@@ -131,7 +131,7 @@
         }
 
         &-clientes {
-            font-size: 70%;
+            font-size: $fuenteChica;
         }
     }
 }

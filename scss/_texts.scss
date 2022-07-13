@@ -1,3 +1,5 @@
+@import "variables";
+
 h1 {
     font-size: 4rem;
 }
@@ -9,15 +11,15 @@ h5 {
 section {
     & p {
     font-size: 80%;
-    color: rgba(20, 130, 142, 0.91); 
-    text-align: center;
+    color: $colorLetras; 
+    text-align: $alineamiento;
     line-height: 1.7;
     }
 
     & h5 {
     text-decoration: underline;
-    color: rgba(20, 130, 142, 0.91);
-    text-align: center;
+    color: $colorLetras;
+    text-align: $alineamiento;
     padding: 5px 0px;
     font-size: 16px;
     font-weight: bold;
@@ -38,9 +40,9 @@ section {
 
 .parrafo {
     &-acercade {
-        background-color: rgba(255, 255, 255, 0.18);
+        background-color: $fondoTarjetas;
         height: max-content;
-        border-radius: 10px;
+        border-radius: $bordeCurvado;
         margin: 0 25px;
     }
 }

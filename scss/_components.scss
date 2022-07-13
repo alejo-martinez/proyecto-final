@@ -20,17 +20,17 @@
     margin-top: 50px;
 
     &__index {
-    background-color: rgba(255, 255, 255, 0.21);
+    background-color: $fondoTarjetas;
     width: 200px;
     height: 12rem;
     box-shadow: 0px 0px 50px -1px gray;
     border-width: 3px;
     padding: 2px;
-    border-radius: 10px;
+    border-radius: $bordeCurvado;
     transition: transform 1.2s;
 
     &:hover {
-        transform: scale(1.2);
+        transform: $transformGrande;
     }
     }
 }
@@ -39,7 +39,7 @@
     transition: transform 0.3s;
 
     &:hover {
-        transform: scale(1.2);
+        transform: $transformGrande;
     }
 }
 
@@ -69,5 +69,5 @@ button {
 
 iframe {                                // IFRAME
     border: 20px solid black;
-    border-radius: 10px;
+    border-radius: $bordeCurvado;
 }
