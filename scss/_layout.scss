@@ -1,0 +1,111 @@
+// BODY
+body {
+    font-family: 'Open Sans', sans-serif;                                       //Estilos Generales para toda la pagina
+    background: #74ebd5;  
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); 
+}
+
+.body {
+    &-acercade {                    //Body de la seccion "acerca de"
+        display: grid;
+        grid-template-areas: 
+        "nav nav nav"
+        "aside header header"
+        "aside parrafo parrafo"
+        "aside iframe iframe"
+        "footer footer footer";
+        grid-template-rows: 1fr 10% 30% 50% 10%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &-clientes {                               //Body de la seccion "clientes"
+        display: grid;
+        grid-template-areas: 
+        "nav nav nav"
+        "head head head"
+        "aside main main"
+        "footer footer footer";
+        gap: 15px;
+    }
+}
+
+
+// NAV
+nav {
+    height: 50px;
+    grid-area: nav;
+}
+
+.fondo-nav {
+    background-color: rgba(3, 88, 128, 0.808);
+}
+
+.actual {
+    color: #ACB6E5;
+}
+
+
+.hover {                                        // Animaciones del NAV
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.2) translateX(10px);
+        color: #ACB6E5;
+    }
+
+    &-secciones {
+        transition: color 0.4s;
+
+        &:hover {
+            color: #ACB6E5;
+        }
+    }
+}
+
+
+// HEADER 
+.header {
+    &-clientes {
+        grid-area: head;
+    }
+
+    &-acercade {
+        grid-area: header;
+    }
+}
+
+// MAIN 
+.main {
+    &-acercade {                    // Main de la seccion "acerca de"
+        grid-area: iframe;
+    }
+
+    &-clientes {                    // Main de la seccion "clientes"
+        grid-area: main;
+        margin-top: 50px;
+        margin-right: 70px;
+        background-color: rgba(255, 254, 250, 0.18);
+        padding: 17px;
+        height: max-content;
+        width: 50%;
+        border-radius: 10px;
+    }
+}
+
+//ASIDE
+.aside {
+    &-acercade {                            // Aside de la seccion "acerca de"
+        grid-area: aside;
+    }
+
+    &-clientes {                            // Aside de la seccion "clientes" 
+        grid-area: aside;
+        margin-top: 70px;
+    }
+}
+
+// FOOTER
+footer {
+    grid-area: footer;
+}

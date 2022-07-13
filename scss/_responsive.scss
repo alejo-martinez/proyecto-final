@@ -1,0 +1,156 @@
+@media (max-width: 768px) {
+    .main {
+        &-clientes {
+            font-size: 60%;
+        }
+    }
+
+    h5 {
+        font-size: 70%;
+    }
+
+    .aside {
+        &-clientes {
+            font-size: 70%;
+        }
+    }
+
+    iframe {
+        height: 93%;
+    }
+
+    .parrafo {
+        &-acercade {
+            margin-left: 10px;
+            height: 100%;
+        }
+    }
+
+    div {
+        & p {
+            font-size: 70%;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .contenido {
+        width: 80%;
+        height: 80%;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin: auto;
+        margin-top: 27px;
+
+        &__index {
+            width: 80%;
+            height: 80%;
+            margin-bottom: 10px;
+        }
+    }
+
+    section {
+        & h5 {
+            font-size: 70%;
+        }
+
+        & p {
+            font-size: 67%;
+        }
+    }
+
+    .section {
+        &-acercade {
+            height: fit-content;
+        }
+
+        &-formulario {
+            font-size: 59%;
+        }
+    }
+
+    .contenedor {
+        &__imagen {
+            max-width: 40px;
+            max-height: 50px;
+            margin-top: 10px;
+        }
+    }
+
+    .tarjeta {
+        max-width: 100px;
+    }
+
+    .card {
+        &-img {
+            &-top {
+                height: 50%;
+                width: 100px;
+            }
+        }
+    }
+
+    iframe {
+        width: 80%;
+        height: 50%;
+        margin: auto;
+    }
+
+    .listado {
+        &__clientes {
+            font-size: 70%;
+
+            &--lista {
+                list-style: none;
+                text-decoration: underline;
+                margin-left: 0;
+            }
+        }
+    }
+
+    input {
+        width: 100px;
+    }
+
+    .trabajos {
+        &__imagenes {
+            width: 70%;
+            height: 70%;
+        }
+    }
+
+    .main {
+        &-acercade {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+        }
+
+        &-clientes {
+            font-size: 70%;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    section {
+        & p {
+            font-size: 63%;
+        }
+    }
+
+    iframe {
+        width: 66%;
+        border: none;
+    }
+
+    div {
+        & p {
+            font-size: 60%;
+        }
+    }
+}
