@@ -5,3 +5,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+// MIXIN
+ @mixin display($alinear) {
+    display: flex;
+    justify-content: $alinear;
+ }
+
+ // MAP 
+
+ $colores: (
+    hero: rgba(3, 88, 128, 0.808),
+    tarjetas: rgba(255, 254, 250, 0.18),
+    index: rgba(255, 255, 255, 0.21),
+    
+ )

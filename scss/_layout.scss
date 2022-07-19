@@ -40,7 +40,7 @@ nav {
 }
 
 .fondo-nav {
-    background-color: rgba(3, 88, 128, 0.808);
+    background-color: map-get($map: $colores, $key: hero);
 }
 
 .actual {
@@ -87,7 +87,7 @@ nav {
         grid-area: main;
         margin-top: 50px;
         margin-right: 70px;
-        background-color: rgba(255, 254, 250, 0.18);
+        background-color: map-get($map: $colores, $key: tarjetas);
         padding: 17px;
         height: max-content;
         width: 50%;
