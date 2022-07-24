@@ -33,13 +33,6 @@
     }
 }
 
-.instagram {                            // Logo de instagram en footer
-    transition: transform 0.3s;
-
-    &:hover {
-        transform: $transformGrande;
-    }
-}
 
 form {                      // FORMULARIO     
     display: flex;  
@@ -67,4 +60,19 @@ button {
 iframe {                                // IFRAME
     border: 20px solid black;
     border-radius: $bordeCurvado;
+}
+
+.tarjeta {
+    transition: transform 0.4s;
+    &:hover {
+        transform: translateY(-20px);
+    }
+}
+
+.instagram {                            // Logo de instagram en footer
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: $transformGrande;
+    }
 }
