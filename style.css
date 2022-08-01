@@ -163,13 +163,24 @@ iframe {
     font-size: 70%; }
   .aside-clientes {
     font-size: 70%; }
+  .aside-div-img {
+    z-index: -1; }
   iframe {
     height: 93%; }
   .parrafo-acercade {
     margin-left: 10px;
     height: 100%; }
   div p {
-    font-size: 70%; } }
+    font-size: 70%; }
+  div-button {
+    z-index: -1; }
+  .navbar-nav {
+    background-color: #035880;
+    width: fit-content;
+    padding: 0 7px;
+    border-radius: 12px; }
+  nav {
+    z-index: 1; } }
 
 @media (max-width: 425px) {
   h1 {

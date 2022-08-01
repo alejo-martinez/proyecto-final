@@ -13,6 +13,12 @@
         &-clientes {
             font-size: $fuenteChica;
         }
+
+        &-div {
+           &-img {
+            z-index: -1;
+           }
+        }
     }
 
     iframe {
@@ -30,6 +36,21 @@
         & p {
             font-size: $fuenteChica;
         }
+
+        &-button {
+            z-index: -1;
+        }
+    }
+
+    .navbar-nav {
+        background-color: rgba(3, 88, 128, 1);
+        width: fit-content;
+        padding: 0 7px;
+        border-radius: 12px;
+    }
+
+    nav {
+        z-index: 1;
     }
 }
 
