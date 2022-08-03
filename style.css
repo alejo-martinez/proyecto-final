@@ -248,6 +248,10 @@ iframe {
   .main-clientes {
     font-size: 70%; } }
 
+@media (max-width: 396px) and (min-width: 376px) {
+  iframe {
+    margin-top: 100px; } }
+
 @media (max-width: 375px) {
   section p {
     font-size: 63%; }
@@ -259,6 +263,10 @@ iframe {
     font-size: 60%; }
   .main-clientes {
     font-size: 60%; } }
+
+@media (max-width: 332px) and (min-width: 321px) {
+  iframe {
+    margin-top: 160px; } }
 
 @media (max-width: 320px) {
   .section-acercade p {
