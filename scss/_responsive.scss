@@ -1,7 +1,12 @@
 @media (max-width: 768px) {
     .main {
         &-clientes {
-            font-size: 60%;
+            font-size: 80%;
+            margin: auto;
+        }
+
+        &-acercade {
+            height: 100%;
         }
     }
 
@@ -22,7 +27,8 @@
     }
 
     iframe {
-        height: 93%;
+        height: 60%;
+        margin-top: 10px;
     }
 
     .parrafo {
@@ -32,13 +38,13 @@
         }
     }
 
+    .section-acercade p {
+        font-size: 1rem;
+    }
+
     div {
         & p {
             font-size: $fuenteChica;
-        }
-
-        &-button {
-            z-index: -1;
         }
     }
 
@@ -87,6 +93,9 @@
     .section {
         &-acercade {
             height: fit-content;
+            & p {
+                font-size: 0.8rem;
+            }
         }
 
         &-formulario {
@@ -118,7 +127,8 @@
     iframe {
         width: 80%;
         height: 50%;
-        margin: auto;
+        margin-top: 2rem;
+        margin-right: 2rem;
     }
 
     .listado {
@@ -167,11 +177,30 @@
     iframe {
         width: 66%;
         border: none;
+        margin-top: 7rem;
     }
 
     div {
         & p {
             font-size: 60%;
+        }
+    }
+
+    .main {
+        &-clientes {
+            font-size: 60%;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .section-acercade p {
+        font-size: 0.7rem;
+    }
+
+    .main {
+        &-clientes {
+            font-size: 50%;
         }
     }
 }

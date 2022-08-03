@@ -1,6 +1,7 @@
 .section {                      // Parrafo de la seccion "acerca de"
     &-acercade {
         grid-area: parrafo;
+        height: fit-content
     }
 }
 

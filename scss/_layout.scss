@@ -81,12 +81,16 @@ nav {
 .main {
     &-acercade {                    // Main de la seccion "acerca de"
         grid-area: iframe;
+        margin: auto;
+        height: 200%;
+        
     }
 
     &-clientes {                    // Main de la seccion "clientes"
         grid-area: main;
         margin-top: 50px;
-        margin-right: 70px;
+        margin-left: 170px;
+        
         background-color: map-get($map: $colores, $key: tarjetas);
         padding: 17px;
         height: max-content;
