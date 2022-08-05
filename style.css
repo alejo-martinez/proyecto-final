@@ -162,6 +162,13 @@ iframe {
   .instagram:hover {
     transform: scale(1.2); }
 
+@media (max-width: 991px) {
+  .navbar-nav {
+    background-color: #035880;
+    width: fit-content;
+    padding: 0 7px;
+    border-radius: 12px; } }
+
 @media (max-width: 768px) {
   .main-clientes {
     font-size: 80%;
@@ -184,11 +191,6 @@ iframe {
     font-size: 1rem; }
   div p {
     font-size: 70%; }
-  .navbar-nav {
-    background-color: #035880;
-    width: fit-content;
-    padding: 0 7px;
-    border-radius: 12px; }
   nav {
     z-index: 1; } }
 
