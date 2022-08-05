@@ -1,3 +1,12 @@
+@media (max-width: 991px) {
+    .navbar-nav {
+        background-color: rgba(3, 88, 128, 1);
+        width: fit-content;
+        padding: 0 7px;
+        border-radius: 12px;
+    }
+}
+
 @media (max-width: 768px) {
     .main {
         &-clientes {
@@ -48,12 +57,7 @@
         }
     }
 
-    .navbar-nav {
-        background-color: rgba(3, 88, 128, 1);
-        width: fit-content;
-        padding: 0 7px;
-        border-radius: 12px;
-    }
+
 
     nav {
         z-index: 1;
