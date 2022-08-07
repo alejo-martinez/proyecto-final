@@ -274,7 +274,9 @@ iframe {
   .section-acercade p {
     font-size: 0.7rem; }
   .main-clientes {
-    font-size: 50%; } }
+    font-size: 50%; }
+  button {
+    font-size: 70%; } }
 
 @media (max-width: 298px) {
   iframe {
